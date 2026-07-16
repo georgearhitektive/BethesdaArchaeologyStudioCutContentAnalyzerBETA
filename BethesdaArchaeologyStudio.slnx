@@ -1,0 +1,40 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Source/">
+    <Project Path="BethesdaArchaeologyStudio.Analysis/BethesdaArchaeologyStudio.Analysis.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="BethesdaArchaeologyStudio.Core/BethesdaArchaeologyStudio.Core.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="BethesdaArchaeologyStudio.Database/BethesdaArchaeologyStudio.Database.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="BethesdaArchaeologyStudio.Export/BethesdaArchaeologyStudio.Export.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="BethesdaArchaeologyStudio.Graph/BethesdaArchaeologyStudio.Graph.csproj" Id="dfb40eac-39e6-4bdc-ae5f-9b6dcbabc171">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="BethesdaArchaeologyStudio.Parser/BethesdaArchaeologyStudio.Parser.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="BethesdaArchaeologyStudio.Services/BethesdaArchaeologyStudio.Services.csproj" Id="065a78d4-133b-44b1-9e83-243185c84e56">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="BethesdaArchaeologyStudio.UI/BethesdaArchaeologyStudio.UI.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="BethesdaArchologyStudio.Generate/BethesdaArchaeologyStudio.Generate.csproj" Id="28b29fa8-234d-4678-8763-aa95aed6dd63">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/Test/">
+    <Project Path="BethesdaArchaeologyStudio.Tests/BethesdaArchaeologyStudio.Tests.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+  </Folder>
+</Solution>
