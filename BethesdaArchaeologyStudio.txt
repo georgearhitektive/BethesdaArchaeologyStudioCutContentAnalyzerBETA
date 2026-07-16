@@ -1,0 +1,90 @@
+BethesdaArchaeologyStudio
+│
+├── BethesdaArchaeologyStudio.Core
+│   ├── Models
+│   │   └── Record.cs
+│   │   └── Field.cs
+│   │   └── Finding.cs
+│   │   └── Plugin.cs
+│   │   └── Reference.cs
+│   │   └── SubRecord.cs
+│   │
+│   └── Enums
+│       └── FieldType.cs
+│       └── FindingSeverity.cs
+│       └── PluginType.cs
+│       └── UnifiedRecordHeader.cs 
+│
+│
+├── BethesdaArchaeologyStudio.Parser
+│   ├── Parser
+│   │    ├── PluginParser.cs
+│   │    └── ArchaicBinaryReader.cs
+│   │    └── BinaryStructures.cs
+│   │    └── ParserDiagnostics.cs
+│   │    └── SubrecordFactory.cs
+│   └── Compression
+│          ├── CompressionManager.cs
+│          └── ICompressionHandler.cs
+│          └── ZLibCompressionHandler.cs
+│          └── ZstdCompressionHandler.cs
+│
+│
+├── BethesdaArchaeologyStudio.Analysis
+│   └── Analysis
+│           
+│          └── AnalysisEngine.cs
+│          └── CutDialogueAnalyzer.cs
+│          └── DeletedCellAnalyzer.cs
+│          └── UnusedAssetAnalyzer.cs
+│          └── UnusedQuestAnalyzer.cs
+│
+├── BethesdaArchaeologyStudio.Database
+│        └── Database
+│               └── DatabaseManager.cs
+│               └── DiffEngine.cs
+│
+├── BethesdaArchaeologyStudio.Export
+│        └── Export
+│              └── HtmlReportExporter.cs
+│
+├── BethesdaArchaeologyStudio.Generate
+│        └── Generator
+│               └── ModGenerator.cs
+│ 
+├── BethesdaArchaeologyStudio.Graph
+│          ├── Interfaces
+│          │       └── IGraphBuilder.cs
+│          │
+│          └── Services
+│                  └── GraphBuilder.cs
+│
+│
+├── BethesdaArchaeologyStudio.Services
+│          ├── Interfaces
+│          │       └── IAnalyzer.cs
+│          │
+│          └── Services
+│                 └── ArchaeologyEngine.cs
+│                  └── BethesdaStringReader.cs
+│                  └── DataSimulator.cs
+│                  └── ReportService.cs
+│                  └── BethesdaGameTypeDetector.cs
+│
+└── BethesdaArchaeologyStudio.UI
+         ├── Controls
+         │        └── InspectorPanel.xaml
+         │        └── MainMenu.xaml
+         │        └── PluginExplorer.xaml
+         │        └── RecordGrid.xaml
+         │        └── StatusBarControl.xaml
+         │        └── ToolbarControl.xaml
+         │       
+         ├── App.xaml
+         ├── AssemblyInfo.cs
+         ├── MainViewModel.cs
+         ├── MainWindow.xaml
+         │         └── MainWindow.xaml.cs
+         ├── RelayCommand.cs
+         ├── StringResources.en.xaml
+         └── StringResources.hu.xaml
