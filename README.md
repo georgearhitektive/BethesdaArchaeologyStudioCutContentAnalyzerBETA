@@ -1,3 +1,6 @@
+<img src="[img_chania.jpg](https://staticdelivery.nexusmods.com/mods/4187/images/17708/17708-1784232338-1564654705.png)" alt="BAS">
+
+
 I originally developed this program for my own use, but the project has grown to the point where I thought it might be worth sharing with you.
 This program—the Bethesda Archaeology Studio Cut Content Analyzer BETA—is currently under development, but it has reached a stage where, with the push of a button, it can identify—based on specific criteria—content that was likely cut from the game.
 
