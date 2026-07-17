@@ -1,4 +1,4 @@
-<img src="[img_chania.jpg](https://staticdelivery.nexusmods.com/mods/4187/images/17708/17708-1784232338-1564654705.png)">
+<img src="[17708/17708-1784232338-1564654705.png](https://staticdelivery.nexusmods.com/mods/4187/images/17708/17708-1784232338-1564654705.png)">
 
 
 I originally developed this program for my own use, but the project has grown to the point where I thought it might be worth sharing with you.
