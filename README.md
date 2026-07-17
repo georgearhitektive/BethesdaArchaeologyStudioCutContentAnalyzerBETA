@@ -26,5 +26,8 @@ Using the program:
 
 Feel free to use and experiment with it; I look forward to your feedback.
 
-P.S. 1.) Just to address this upfront: I don't consider myself a flawless programmer, nor is the program bug-free, and yes, I did use Copilot and generative AI while creating it.
-      2.) The program was developed entirely by me; I only used Mutagen for patch generation because it was easier to implement that way than using ByteWrite.
+P.S.:
+      <ul class="PS-list">
+      <li>1.) Just to address this upfront: I don't consider myself a flawless programmer, nor is the program bug-free, and yes, I did use Copilot and generative AI while creating it.</li>
+      <li>2.) The program was developed entirely by me; I only used Mutagen for patch generation because it was easier to implement that way than using ByteWrite.</li>
+      </ul>
