@@ -10,18 +10,19 @@ Using the program:
 
 - Extract the "BethesdaArchaeologyStudio.zip" file to a folder of your choice.
 - Prepare the environment: 
-
-                              1.) The location of .esp, .esl, and .esm files must always be: Game Name/Data (even if you copy the .esp, .esl, or .esm files elsewhere!).
-                              2.) Since my program does not handle .ba2 files, you must extract the String, ilString, and idString files alongside the .esl, .esp, and .esm files within the Game Name/Data folder in order for the program to read them (I personally recommend the BAE program; I have even set it as a dependency). Always extract files for only one language—the one in which you wish to view the content (e.g., English/en, German/de, Hungarian/hun or hu, etc.).
-                              3.) Launch the "Archaeology Studio - Cut Content Analyzer [BETA]" program using `BethesdaArchaeologyStudio.UI.exe`.
-                              4.) Use the "[Loading plugin(s)..]" button to select the .esp, .esl, or .esm file(s) you wish to analyze (select one, or multiple by holding down the Ctrl key).
-                              5.) The program will process the files and display the results on the "Discoveries (Cut Content)" tab: Match, Editor ID, Name, Category, Reliability (the percentage probability that it is indeed cut content), and Short Status. On the "Total Records" tab, it will list the IDs and text content of all records found.
-                             6.) Clicking on the found records opens an additional window containing further details (clicking again closes the window).
-                             7.) Use the [Clear Database] button to delete the imported data from the database (it is recommended to do this before every search to avoid mixing data).
-                            8.) Use the [HTML Export] button to export the found data to an HTML file (with a name of your choice), allowing you to browse the results via a clean graphical interface (optimized to save memory, and you can use your browser to translate it into any language you wish).
-                           9.) [Patch Generation] Create an .esm file from the extracted content found by the program (saved to a location of your choice). Currently, the program only supports Fallout 4, Skyrim, and Starfield; using it with other titles will result in an error.
-                        10.) [Exit] Self-explanatory; closes the program.
-                        11.) There is already a language selector in the corner of the program, but it doesn't work yet; I plan to develop it further in the future.
+                              <ul class="step-list">
+                              <li>1.) The location of .esp, .esl, and .esm files must always be: Game Name/Data (even if you copy the .esp, .esl, or .esm files elsewhere!).</li>
+                              <li>2.) Since my program does not handle .ba2 files, you must extract the String, ilString, and idString files alongside the .esl, .esp, and .esm files within the Game Name/Data folder in order for the program to read them (I personally recommend the BAE program; I have even set it as a dependency). Always extract files for only one language—the one in which you wish to view the content (e.g., English/en, German/de, Hungarian/hun or hu, etc.).</li>
+                              <li>3.) Launch the "Archaeology Studio - Cut Content Analyzer [BETA]" program using `BethesdaArchaeologyStudio.UI.exe`.</li>
+                              <li>4.) Use the "[Loading plugin(s)..]" button to select the .esp, .esl, or .esm file(s) you wish to analyze (select one, or multiple by holding down the Ctrl key).</li>
+                              <li>5.) The program will process the files and display the results on the "Discoveries (Cut Content)" tab: Match, Editor ID, Name, Category, Reliability (the percentage probability that it is indeed cut content), and Short Status. On the "Total Records" tab, it will list the IDs and text content of all records found.</li>
+                             <li>6.) Clicking on the found records opens an additional window containing further details (clicking again closes the window).</li>
+                             <li>7.) Use the [Clear Database] button to delete the imported data from the database (it is recommended to do this before every search to avoid mixing data).</li>
+                            <li>8.) Use the [HTML Export] button to export the found data to an HTML file (with a name of your choice), allowing you to browse the results via a clean graphical interface (optimized to save memory, and you can use your browser to translate it into any language you wish).</li>
+                           <li>9.) [Patch Generation] Create an .esm file from the extracted content found by the program (saved to a location of your choice). Currently, the program only supports Fallout 4, Skyrim, and Starfield; using it with other titles will result in an error.</li>
+                        <li>10.) [Exit] Self-explanatory; closes the program.</li>
+                        <li>11.) There is already a language selector in the corner of the program, but it doesn't work yet; I plan to develop it further in the future.</li>
+                         </ul>
 
 Feel free to use and experiment with it; I look forward to your feedback.
 
