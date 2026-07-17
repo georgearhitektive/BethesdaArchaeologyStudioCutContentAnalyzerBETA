@@ -10,12 +10,13 @@ BethesdaArchaeologyStudio
 │   │   └── SubRecord.cs
 │   │
 │   └── Enums
-│       └── FieldType.cs
-│       └── FindingSeverity.cs
-│       └── PluginType.cs
-│       └── UnifiedRecordHeader.cs 
-│
-│
+│   │    └── FieldType.cs
+│   │    └── FindingSeverity.cs
+│   │    └── PluginType.cs
+│   │    └── UnifiedRecordHeader.cs 
+│   └── Interfaces
+│          │       
+│          └── IAnalyzer.cs
 ├── BethesdaArchaeologyStudio.Parser
 │   ├── Parser
 │   │    ├── PluginParser.cs
@@ -61,15 +62,14 @@ BethesdaArchaeologyStudio
 │
 │
 ├── BethesdaArchaeologyStudio.Services
-│          ├── Interfaces
-│          │       └── IAnalyzer.cs
+│          │
 │          │
 │          └── Services
 │                 └── ArchaeologyEngine.cs
-│                  └── BethesdaStringReader.cs
-│                  └── DataSimulator.cs
-│                  └── ReportService.cs
-│                  └── BethesdaGameTypeDetector.cs
+│                 └── BethesdaStringReader.cs
+│                 └── DataSimulator.cs
+│                 └── ReportService.cs
+│                 └── BethesdaGameTypeDetector.cs
 │
 └── BethesdaArchaeologyStudio.UI
          ├── Controls
